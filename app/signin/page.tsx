@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function Home() {
+const SigninPage = () => {
   const [username, setUsername] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
@@ -57,4 +57,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default SigninPage;
