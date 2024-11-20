@@ -81,6 +81,9 @@ This is a real-time chat application built with **Next.js**, **Zustand** for sta
 6. **User Activity**
    - You'll see notifications when a user joins or leaves the room.
 
+The application requires the following environment variables to run properly. You can add them to your .env.local file.
+MONGODB_URI=mongodb+srv://username:password@cluster0.101od.mongodb.net/
+
 ## **Folder Structure**
 
 ```bash
