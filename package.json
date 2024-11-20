@@ -21,7 +21,6 @@
     "ws": "^8.18.0",
     "zod": "^3.23.8"
   },
-  "type": "module",
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",

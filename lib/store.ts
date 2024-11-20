@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 
 // Define the state and actions for chat, including username and reactions
 interface ChatStore {

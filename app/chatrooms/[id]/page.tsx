@@ -5,9 +5,10 @@ import { useSession } from "next-auth/react";
 import { trpc } from "@/lib/trpc";
 import { useChatStore } from "@/lib/store";
 import { useRouter } from "next/navigation";
+import { use } from "react"; // Import React.use
 
 export default function ChatRoomPage({ params }: { params: { id: string } }) {
-  const roomId = params.id;
+  const roomId = use(params); // Unwrap the params object to access `id`
   const { data: session, status } = useSession();
   const router = useRouter();
 
